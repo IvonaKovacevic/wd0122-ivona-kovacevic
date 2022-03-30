@@ -1,0 +1,81 @@
+/* IMPOSTAZIONI GENERALI */
+body {
+  margin: 0px;
+  text-align: center;
+  font-family: Roboto;
+}
+/* ======================HEADER===================== */
+
+header {
+  background-color: rgb(7, 190, 223);
+  width: 100vw;
+  height: 30vh;
+  font-family: Roboto;
+  margin: 10px;
+  border-bottom: black dotted;
+}
+
+#wd {
+  font-size: 30px;
+}
+
+#curr {
+  font-size: 30px;
+  padding-bottom: 10px;
+  font-style: normal;
+  padding-top: 20px;
+}
+
+span {
+  font-size: 40px;
+  background-color: white;
+  padding: 2opx;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+/* ===================MAIN============== */
+figure img {
+  border-radius: 5px;
+}
+
+.titolo {
+  color: rgb(21, 91, 182);
+  font-weight: bolder;
+}
+
+#presentazione {
+  text-align: left;
+  margin: 50px;
+  border-bottom: black dotted;
+}
+
+#formazione {
+  text-align: left;
+  margin: 50px;
+  border-bottom: black dotted;
+}
+
+#sezione2 {
+  text-align: left;
+  border-bottom: black dotted;
+  margin: 50px;
+}
+
+/* ELEMENTI NEL MAIN */
+blockquote {
+  background-color: rgb(180, 189, 180);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* FOOTER */
+
+footer {
+  background: rgb(112, 103, 103);
+  padding: 5px;
+}
+
+kbd {
+  color: rgb(255, 230, 8);
+}
