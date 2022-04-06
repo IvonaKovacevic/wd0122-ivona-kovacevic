@@ -1,0 +1,254 @@
+/*============ IMPOSTAZIONI GENERALI ================*/
+body {
+  font-family: Poppins;
+  margin: 5vw;
+
+  background-image: url("sfondo.png");
+}
+/*============= HEADER ============================== */
+
+header {
+  width: 90vw;
+  height: 55vw;
+  text-align: center;
+  margin-top: 5vw;
+  padding-top: 5vw;
+  background-color: rgb(26, 138, 138);
+  text-decoration: none;
+  list-style: none;
+}
+
+#logo {
+  margin-top: 5vw;
+}
+
+header div p {
+  color: aliceblue;
+  margin-top: 5vw;
+}
+
+header a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+header #logo {
+  padding-bottom: 5vw;
+}
+
+header a::before {
+  content: "=>";
+  margin-right: 2vw;
+}
+
+header a::after {
+  content: "<=";
+  margin-left: 2vw;
+}
+
+header ul {
+  padding-top: 6vw;
+}
+
+/*============= MAIN ================================ */
+main {
+  width: 90vw;
+  background-color: rgb(252, 249, 247);
+  border: solid gray;
+  border-radius: 5px;
+}
+
+main h1 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 40px;
+  margin-left: 5vw;
+  padding-top: 7vw;
+}
+
+/*============= ELEMENTI NEL MAIN - ARTICLE ==========*/
+main article p {
+  margin-top: 25px;
+  margin-left: 20px;
+}
+
+main article #primafrase {
+  color: gray;
+  padding-right: 1vw;
+}
+
+main article ul {
+  padding-left: 10vw;
+  padding-right: 10vw;
+  margin-top: 20px;
+}
+
+main article ul li {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+main article ul code {
+  border-radius: 2vw;
+  background-color: rgb(209, 202, 202);
+}
+
+main article h2 {
+  margin-top: 50px;
+  margin-bottom: 0px;
+  padding-left: 5vw;
+}
+
+main article p strong {
+  color: indigo;
+  font-weight: bold;
+}
+
+main article ol li {
+  margin-top: 10px;
+  padding-left: 3vw;
+  width: 60vw;
+}
+
+main article ol {
+  padding-left: 15vw;
+  padding-top: 3vw;
+}
+
+/*============= TABELLE ============================= */
+table caption {
+  color: black;
+  font-weight: 700;
+  font-size: 18px;
+  margin-top: 30px;
+}
+
+table {
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+
+table thead {
+  background: rgb(203, 129, 255);
+  border: grey solid;
+}
+
+table thead th {
+  padding: 15px;
+}
+
+table tbody {
+  background: rgb(245, 241, 241);
+  border: grey solid;
+}
+
+table tbody td {
+  border-bottom: solid grey;
+  padding: 10px;
+}
+
+#testvalidazione {
+  margin-bottom: 20px;
+}
+
+iframe {
+  border-radius: 15px;
+  width: 80vw;
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+
+/* ============ FORM ================================ */
+section {
+  background: rgb(219, 219, 219);
+  margin-left: 5vw;
+  margin-right: 5vw;
+
+  border-radius: 5px;
+}
+
+section h2 {
+  font-size: 25px;
+  padding-top: 5vw;
+}
+
+section form {
+  margin-left: 5vw;
+  margin-top: 5vw;
+  padding-bottom: 5vw;
+}
+
+section form fieldset button {
+  border-radius: 5px;
+  padding: 1vw 1vw;
+
+  margin-left: 10px;
+
+  color: rgb(255, 255, 255);
+  background: rgb(48, 167, 167);
+}
+
+section form fieldset input {
+  border-radius: 5px;
+  padding: 1vw 1vw;
+}
+
+/* ============== ELEMENTI NELL' ASIDE ============== */
+aside {
+  margin-left: 5vw;
+  margin-right: 5vw;
+
+  padding-bottom: 5vw;
+}
+aside h2 {
+  margin-top: 7vw;
+  margin-bottom: 7vw;
+  font-weight: 700;
+  font-size: 35px;
+}
+
+aside div {
+  background: rgba(243, 245, 248, 0.582);
+  width: 70vw;
+  height: 20vw;
+  border: solid rgb(161, 158, 158);
+
+  padding-right: 5vw;
+  padding-left: 5vw;
+  padding-top: 5vw;
+
+  margin-top: 5vw;
+  margin-bottom: 5vw;
+
+  border-radius: 5px;
+}
+
+aside div a {
+  color: rgb(94, 187, 190);
+  font-size: 18px;
+  font-weight: bold;
+}
+
+aside div .data {
+  padding-left: 30vw;
+  padding-top: 3%;
+}
+
+aside div p {
+  margin: 5px;
+}
+/* ============== FOOTER ============================ */
+footer {
+  width: 86vw;
+  height: 20vw;
+
+  border-radius: 5px;
+  background-color: rgb(48, 167, 167);
+  color: white;
+  text-align: center;
+
+  padding-top: 5vw;
+  padding-bottom: 5vw;
+  padding-right: 2vw;
+  padding-left: 2vw;
+}
