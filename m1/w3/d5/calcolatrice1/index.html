@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcolatrice di Ivona</title>
+
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Stardos+Stencil&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="container">
+
+        <div id="calcolatrice">
+
+            <div id="cornice-risultato">
+            <div id="schermo" > 
+                    <input type="text" class="display" id="operazioni">
+            </div>
+            </div>
+
+            <div class="bottoni">
+                <div class="bottone" onclick="aggiungiNumero(this)" value="1">1</div>
+                <div class="bottone" onclick="aggiungiNumero(this)" value="2">2</div>
+                <div class="bottone" onclick="aggiungiNumero(this)" value="3">3</div>
+                <div id="clear" class="bottone" onclick="canc(this)">C</div>
+                <div class="bottone" onclick="aggiungiNumero(this)" value="4">4</div>
+                <div class="bottone" onclick="aggiungiNumero(this)" value="5">5</div>
+                <div class="bottone" onclick="aggiungiNumero(this)" value="6">6</div>
+                <div id="operatore" class="bottone" onclick="aggiungiNumero(this)">*</div>
+                <div class="bottone" onclick="aggiungiNumero(this)" value="7">7</div>
+                <div class="bottone" onclick="aggiungiNumero(this)" value="8">8</div>
+                <div class="bottone" onclick="aggiungiNumero(this)" value="9">9</div>
+                <div id="operatore" class="bottone" onclick="aggiungiNumero(this)">/</div>
+                <div class="bottone" onclick="aggiungiNumero(this)">0</div>
+                <div id="operatore" class="bottone" onclick="aggiungiNumero(this)">+</div>
+                <div id="operatore" class="bottone" onclick="aggiungiNumero(this)">-</div>
+                <div id="uguale" class="bottone" onclick="uguale(this)">=</div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <script src="./script.js"></script>
+</body>
+</html>

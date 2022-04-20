@@ -1,0 +1,37 @@
+@media (min-width: 500px) {
+  table {
+    width: 50%;
+    color: rgb(68, 176, 209);
+  }
+
+  @media screen and (min-width: 768px) {
+  }
+}
+
+@media (min-width: 1112px) {
+  #top {
+    width: 3000px;
+  }
+}
+
+@media (min-width: 768px) {
+  iframe {
+    padding: 0px 70px;
+    border: coral 1px solid;
+    border-radius: 15px;
+    border-bottom-left-radius: 15px;
+  }
+}
+
+@media (min-width: 768px) {
+  #logo {
+    width: 400px;
+    height: 90px;
+  }
+}
+
+@media (min-width: 1640px) {
+  .clearafix {
+    font-size: 100rem;
+  }
+}

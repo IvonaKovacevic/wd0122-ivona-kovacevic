@@ -1,0 +1,303 @@
+/* IMPOSTAZIONI GENERALI */
+body {
+  color: #000;
+  font-size: 1.2rem;
+  font-family: "Fira Sans";
+
+  line-height: 1.8;
+}
+
+body p {
+  font-weight: 100;
+}
+h1 {
+  font-size: 3.8rem;
+  line-height: 1;
+}
+
+h2 {
+  font-size: 2.8rem;
+  line-height: 1.1;
+}
+h3 {
+  font-size: 2.2rem;
+}
+/* HEADER */
+header {
+  background-color: rgb(255, 255, 255);
+  height: 100px;
+  display: block;
+}
+div .lni {
+  font-size: 40px;
+  color: red;
+}
+
+header img {
+  padding-left: 20px;
+  padding-top: 30px;
+}
+#banner {
+  background-image: url(/start/assets/images/banner.jpg);
+
+  background-size: cover;
+
+  text-align: left;
+  font-size: 18px;
+  color: white;
+}
+#navbarsticky {
+  position: fixed;
+  background-color: white;
+  width: 100%;
+}
+
+#divdeveloper {
+  text-align: center;
+  padding-top: 30px;
+}
+#scrivici {
+  background-color: #0c0633;
+  height: 350px;
+  width: 100%;
+  text-align: center;
+  padding-top: 40px;
+}
+#scrivicidiv {
+  margin: 30px 20px;
+}
+#scrivici .testobianco {
+  color: white;
+}
+#scrivici h2 {
+  padding-bottom: 18px;
+}
+#scrivici p {
+  padding-bottom: 18px;
+  color: white;
+  font-weight: bold;
+}
+
+#contenitore-chi {
+  margin-right: 30px;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+
+/* MAIN */
+
+/* #menu {
+  background-color: rgb(211, 197, 197);
+  height: 0;
+  overflow: hidden;
+  transition: height 0.5s;
+}
+#apri-menu {
+  display: none;
+}
+input:checked + #menu {
+  height: 100px;
+} */
+
+/* FOOTER */
+
+footer {
+  width: 100%;
+  background-color: rgb(231, 227, 227);
+  text-align: left;
+  flex-direction: column;
+}
+
+footer #piedipagina {
+  margin-left: 30px;
+  padding-top: 30px;
+  margin-right: 30px;
+}
+
+footer div {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#coda {
+  margin-right: 30px;
+  margin-left: 30px;
+  padding-bottom: 30px;
+  font-size: 15px;
+  color: black;
+}
+
+#newsletter {
+  display: flex;
+  flex-direction: column;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+}
+
+#bottone-vabene {
+  background-image: linear-gradient(90deg, #6cc1e2, #392f7a);
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  padding: 10px 30px;
+}
+form input {
+  padding: 10px 30px;
+}
+/* RESPONSIVE */
+@media screen and (min-width: 414px) {
+  #navcell {
+    position: relative;
+    left: 380px;
+    bottom: 50px;
+    color: red;
+  }
+
+  #navgrande {
+    display: none;
+  }
+
+  #banner {
+    height: 500px;
+    text-align: left;
+    font-size: 18px;
+    color: white;
+  }
+  #banner h1 {
+    padding-top: 40px;
+    padding-bottom: 10px;
+  }
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+
+  #banner p {
+    padding-bottom: 50px;
+    font-weight: 700;
+  }
+  .tastostile,
+  #ascrivici {
+    background-image: linear-gradient(90deg, #6cc1e2, #392f7a);
+    padding: 1rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: white;
+    border: 0;
+    cursor: pointer;
+  }
+  #banner .tastostile {
+    animation: pulse 1.5s infinite;
+  }
+
+  #divbanner {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
+  #contenitore1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px 20px;
+  }
+  #contenitore1 h3 {
+    font-size: 1.8rem;
+    line-height: 1.1;
+    padding-bottom: 10px;
+  }
+
+  #divdeveloper {
+    margin: 20px 20px;
+  }
+  #divdeveloper p {
+    margin-top: 20px;
+  }
+
+  #futuro {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  #futuro #notebook {
+    height: 380px;
+    margin: 20px;
+    padding-bottom: 40px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  /* and (max-width: 1023px)  */
+  #navgrande {
+    display: flex;
+  }
+
+  #navcell {
+    display: none;
+  }
+  #navbarsticky {
+    position: relative;
+  }
+  #menu {
+    display: inline-block;
+    position: absolute;
+  }
+  #divbanner {
+    text-align: left;
+    margin-left: 150px;
+    margin-right: 140px;
+    padding-top: 50px;
+  }
+  #divbanner p {
+    font-weight: 700;
+    padding-bottom: 20px;
+  }
+  #banner {
+    background-image: url(/start/assets/images/banner.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 450px;
+  }
+  .tastostile,
+  #ascrivici {
+    background-image: linear-gradient(90deg, #6cc1e2, #392f7a);
+    padding: 1rem 1rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: white;
+    border: 0;
+    cursor: pointer;
+  }
+
+  .tastostile {
+    box-shadow: #000 4px 4px 4px 4px;
+  }
+
+  #contenitore1 {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+  }
+  #divdeveloper {
+    margin-left: 50px;
+  }
+  #futuro {
+    display: flex;
+  }
+  #notebook {
+    padding-bottom: 50px;
+  }
+}
+#piedipagina {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 1024px){
+    
+}   
+}

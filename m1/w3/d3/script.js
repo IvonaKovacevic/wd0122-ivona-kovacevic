@@ -1,0 +1,3 @@
+function(){
+    comnsole.log("funzione");
+}

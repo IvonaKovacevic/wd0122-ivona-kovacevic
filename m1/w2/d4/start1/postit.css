@@ -1,0 +1,81 @@
+h1 {
+  font-weight: 700;
+  font-size: 45px;
+  font-family: "Indie Flower";
+  padding-top: 50px;
+  padding-bottom: 15px;
+}
+
+span {
+  font-size: 25px;
+  font-family: "Indie Flower";
+}
+#bacheca {
+  background-color: rgb(120, 120, 120);
+  width: 1000px;
+  height: 500px;
+}
+
+.blocco {
+  align-content: space-around;
+
+  text-align: center;
+  padding: auto;
+  font-size: 20px;
+}
+
+.primequattro {
+  flex-direction: row;
+  display: flex;
+  gap: 20px;
+  align-items: stretch;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+.secondequattro {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding-left: 20px;
+}
+.postit1,
+.postit5,
+.postit7 {
+  background-image: linear-gradient(#f8f858, rgb(216, 216, 216));
+  background-color: ;
+  width: 200px;
+  height: 180px;
+  margin: 10px;
+  transform: rotate(-5deg);
+  box-shadow: 7px 5px rgb(71, 71, 71);
+}
+
+.postit2,
+.postit4,
+.postit8 {
+  background-image: linear-gradient(#ccffcc, rgb(216, 216, 216));
+
+  width: 200px;
+  height: 180px;
+  margin: 10px;
+  transform: rotate(5deg);
+  box-shadow: 7px 5px rgb(71, 71, 71);
+}
+
+.postit3,
+.postit6 {
+  background-image: linear-gradient(#ffccff, rgb(216, 216, 216));
+  width: 200px;
+  height: 180px;
+  margin: 10px;
+  transform: rotate(-4deg);
+  box-shadow: 7px 5px rgb(71, 71, 71);
+}
+
+#transition:hover {
+  transform: scale(1.25);
+
+  justify-content: center;
+  align-items: center;
+}

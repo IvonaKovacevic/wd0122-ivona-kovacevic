@@ -1,0 +1,89 @@
+/*
+1 creazione del testo e formattazione di 1 parola da far ruotare
+2 inserimento delle altre 2 parole
+3 sovrapporre le 3 parole
+4 mostrare 1 parola e nascondere le altre 2
+5 animare 1 parola (fadein - fadeout con spostamento)
+6 animare le altre 2 parole
+7 ritardare progressivamente l'animazione delle altre 2 parole 
+*/
+
+main {
+  width: 500px;
+  height: 100px;
+  background-color: rgb(214, 210, 203);
+  border: 1px 1px 1px 1px black solid;
+}
+
+p {
+  font-weight: 700;
+  font-family: "Amaranth";
+  padding-left: 10px;
+  padding-top: 22px;
+}
+
+.parole {
+  color: rgb(106, 158, 158);
+  position: relative;
+}
+
+i:nth-of-type(1) {
+  position: absolute;
+  animation-name: parola1;
+  animation-duration: 6s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+}
+i:nth-of-type(2) {
+  top: -20px;
+  position: absolute;
+  animation-name: parola2;
+  animation-duration: 6s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  overflow: hidden;
+}
+i:nth-of-type(3) {
+  position: absolute;
+  animation-name: parola3;
+  animation-duration: 10s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+}
+
+@keyframes parola1 {
+  0%,
+  33% {
+    opacity: 0;
+    transform: translateY(-2em);
+  }
+  34%,
+  66% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  99% {
+    opacity: 0;
+    transform: translateY(2em);
+  }
+}
+@keyframes parola2 {
+  0%,
+  33% {
+    opacity: 0;
+    transform: translateY(0);
+  }
+  34%,
+  66% {
+    opacity: 1;
+    transform: translateY(2em);
+  }
+  99% {
+    opacity: 0;
+    transform: translateY(-2em);
+  }
+}
