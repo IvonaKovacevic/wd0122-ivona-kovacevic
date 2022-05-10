@@ -1,0 +1,32 @@
+h1 {
+  margin-top: 10px;
+  color: #808080;
+  padding: 15px;
+  font-weight: bold;
+  background-color: #c3edc3;
+  font-size: 1.5rem; }
+
+p {
+  margin-top: 10px;
+  color: #808080;
+  padding: 15px;
+  font-weight: 400;
+  background-color: #1ac21a;
+  font-size: 1rem; }
+
+#p1 {
+  color: red; }
+
+#p2 {
+  background-color: #c87e7e;
+  color: aquamarine;
+  width: 33.33333px; }
+
+.bordo1 {
+  border-top: 1px solid #000; }
+
+.bordo2 {
+  border-top: 1px solid #000; }
+
+.bordo3 {
+  border-top: 1px solid #000; }

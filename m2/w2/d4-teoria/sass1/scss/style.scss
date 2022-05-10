@@ -1,0 +1,44 @@
+
+@import 'functions';
+
+@mixin testi($peso, $bg) {
+    margin-top:10px;
+    color:#808080;   
+    padding: 15px; 
+    font-weight: #{$peso};
+    background-color: #{$bg};
+}
+@mixin colore($modifica, $valore) {
+    #{$modifica}color: $valore
+
+    
+}
+h1{
+    @include testi(bold, rgb(195, 237, 195));
+    font-size: 1.5rem;
+}
+p{
+   @include testi(400, rgb(26, 194, 26));
+    font-size:1rem;
+}
+//h1,p1 e andremmo a mettere le stesse cose 
+
+#p1{
+    @include colore('',red)
+}
+#p2{
+    @include colore('background-', rgb(200, 126, 126));
+    color: aquamarine;
+    width: miaFunzione()
+}
+
+
+// cicli 
+
+@for $i from 1 to 4 {
+    .bordo#{$i}{
+        border-top: 1px solid #000;
+    }
+    
+}
+
