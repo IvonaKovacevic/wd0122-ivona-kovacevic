@@ -1,0 +1,13 @@
+body{
+    text-align: center;
+    
+    
+}
+h1{
+    color: rgb(124, 239, 174);
+    background-color: azure;
+}
+button{
+    color: rgb(255, 255, 255);
+    background-color: black;
+}
